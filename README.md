@@ -70,6 +70,13 @@ python main.py --input data/sample_transcript.txt
 
 ### **2. Summarization**
 - Utilizes `BART` or `T5` transformers for converting transcripts into structured medical reports.
+```
+objective: The patient is seen by a doctor in the back of a waiting room. The doctor says, "Good morning, Ms.\n
+
+Objective: Mr. Jones is the son of former U.S. President Harry S. Jones. Mr. Jones has been married to his wife, Barbara, for more than 40 years.\n
+
+Assessment: Patient: Good morning, doctor. Doctor: How are you feeling today? Patient: I'm fine.\n Plan: "I\u2019m doing better, but I still have some discomfort now and then," he said.\n
+```
 
 ### **3. Sentiment & Intent Analysis**
 - Uses `DistilBERT` or `ClinicalBERT` to classify patient sentiment.
