@@ -77,4 +77,12 @@ python main.py --input data/sample_transcript.txt
 
 ### **4. SOAP Note Generation**
 - Rule-based structuring + NLP techniques for extracting and organizing medical details.
+  ```
+  SOAP Notes:
+    Subjective: The patient is seen by a doctor in the back of a waiting room. The doctor says, "Good morning, Ms.
+    Objective: Mr. Jones is the son of former U.S. President Harry S. Jones. Mr. Jones has been married to his wife, Barbara, for more than 40 years.
+    Assessment: Patient: Good morning, doctor. Doctor: How are you feeling today? Patient: I'm fine.
+    Plan: "I’m doing better, but I still have some discomfort now and then," he said.
+  ```
+  
 
